@@ -306,7 +306,7 @@ export class ModalDirective implements AfterViewInit, OnDestroy {
      return;
    }
   //  this._renderer.invokeElementMethod(otherOpenedModals[otherOpenedModals.length - 1], 'focus');
-  otherOpenedModals[otherOpenedModals.length - 1].nativeElement.focus();
+  otherOpenedModals[otherOpenedModals.length - 1].focus();
  }
 
  /** @internal */
